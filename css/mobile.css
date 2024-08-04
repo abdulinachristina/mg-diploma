@@ -1,0 +1,76 @@
+/*width 360px*/
+@media (max-width: 599px) {
+
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0 auto;
+  }
+/*Header Block start*/
+
+    .header__nav_menu {
+      display: none;
+      }
+    .header__logo_img {
+      width: 270px;
+      margin-left: auto;
+      margin-right: auto;
+      
+      }
+    .main__title {
+      font-size: 26px;
+      max-width: 280px;
+      line-height: 1.38;
+      }
+
+  /*Header Block end*/
+  /*Trends Block start*/
+
+
+    .trend_container {
+      width: 100%;
+      }
+    .trend_1, .trend_2, .trend_3 {
+      margin-bottom: 4px;
+      }
+    .trend_text {
+      font-size: 16px;
+      line-height: 1.13;
+    }
+    .trends_text {
+      margin: auto 15px 15px; 
+    }
+
+    /*Trends Block end*/
+
+    .product_shop {
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+
+    /*Post Block start*/
+
+    .posts__container {
+      display: inline-block;
+    }
+    .posts__item {
+      display: inline-block;
+      margin-left: 4.4%;
+      margin-right: 4.4%;
+    }
+    .posts__item_title {
+      font-size: 16px;
+      line-height: 1.25;
+    }
+    .posts__item_link {
+      font-size: 14px; 
+      line-height: 2.9;
+    }
+    .aside {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /*Post Block end*/
+    }

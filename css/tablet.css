@@ -1,0 +1,75 @@
+/*width 768px*/
+
+@media (min-width: 600px) and (max-width: 1150px) {
+  /*Header Block start*/
+
+    .header {
+      background-image: url(../img/banner-bg-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+    .header__nav_menu {
+      display: none;
+    }
+    .header__logo_img {
+      width: 158px;
+      margin-left: 35px;
+      margin-top: 21px;
+    }
+    .main__title {
+      font-size: 40px;
+      width: 620px;
+      line-height: 1.375;
+    }
+
+  /*Header Block start*/
+  /*Trends Block start*/
+
+    .trend_container {
+      width: calc(50% - 4px);
+      }
+    .trend_1, .trend_2 {
+      margin-bottom: 4px;
+      }
+    .trend_text {
+      font-size: 17px;
+      line-height: 1.3;
+    }
+
+   /*Trends Block end*/
+   /*Shop Block start*/
+
+    .product_shop {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 29px;
+      }
+    .images_shop {
+      width: calc(100% - 46px);
+    }
+    .shop_item_title {
+      font-size: 17px;
+    }
+
+    /*Shop Block end*/
+    /*Post Block start*/
+
+    .posts__item {
+      display: inline-block;
+      margin-left: 7.5%;
+      margin-right: 7.5%;
+    }
+    .posts__item_img {
+      width: 100%;
+    }
+    .posts__item_title {
+      font-size: 17px;
+      line-height: 1.3;
+    }
+    .posts__item_link {
+      font-size: 14px; 
+      line-height: 2.9;
+    }
+    /*Post Block end*/ 
+  }
